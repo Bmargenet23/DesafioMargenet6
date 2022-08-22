@@ -1,0 +1,36 @@
+@import 'variables';
+
+.fondo{
+    color: $ColorLetra;
+    background-image:url("../img/fondo.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    h2{
+        padding: 10px 10px;
+        text-align: center;
+    }
+    article{
+        display:inline-block;
+        .anchoLargo{
+            width: 90%;
+            height: 100vh;
+
+        }
+    }
+}
+
+
+img{
+    width: 50%;
+    height: 60vh;
+    border: solid 2px black;
+    float: left;
+    .justificar{    
+        text-align: justify;  
+        }
+}
+
+.margin{
+        margin: 20px 40px;
+}
+
