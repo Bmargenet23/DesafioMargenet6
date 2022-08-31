@@ -69,8 +69,31 @@ span {
   position: relative;
 }
 
+.boton, .botonContacto, .botonNosotros, .botonBeneficios, .botonServicios {
+  background-color: #333;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.botonServicios {
+  background-color: #7e7e7e;
+}
+
+.botonBeneficios {
+  background-color: #919191;
+}
+
+.botonNosotros {
+  background-color: rgba(165, 165, 165, 0.6470588235);
+}
+
+.botonContacto {
+  background-color: #b9b9b9;
+}
+
 span:hover {
-  background-color: grey;
+  background-color: #000;
 }
 
 a {

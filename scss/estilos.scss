@@ -30,8 +30,34 @@ span{
     position:relative;
 }
 
+.boton{
+    background-color: #333;
+    border-radius: 10px;
+    text-align: center;
+    border:1px solid black;
+}
+.botonServicios{
+    @extend .boton;
+    background-color: #7e7e7e;
+}
+
+.botonBeneficios{
+    @extend .boton;
+    background-color: #919191;
+}
+
+.botonNosotros{
+    @extend .boton;
+    background-color: #a5a5a5a5;
+}
+
+.botonContacto{
+    @extend .boton;
+    background-color: #b9b9b9;
+}
+
 span:hover{
-    background-color: grey;
+    background-color: #000;
 }
 
 a{
